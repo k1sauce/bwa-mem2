@@ -974,7 +974,7 @@ int main_mem(int argc, char *argv[])
 
     /* Display runtime profiling stats */
     tprof[MEM][0] = __rdtsc() - tprof[MEM][0];
-    display_stats(aux.opt->n_threads);
+    /* display_stats(aux.opt->n_threads); */
     
     return 0;
 }
